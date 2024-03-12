@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable doc
+drawable home
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable person
+drawable search
+id bottomNavView
+id main
+id mainFrag
+id navHome
+id navProfile
+id navSOP
+id navSearch
+layout activity_main
+layout fragment_home_
+layout fragment_profile
+layout fragment_search
+layout fragment_sop
+menu menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string hello_blank_fragment
+style Base.Theme.Unixplore
+style Theme.Unixplore
+xml backup_rules
+xml data_extraction_rules
