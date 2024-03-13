@@ -35,7 +35,7 @@ private static int Splash_timeout=5000;
         Animation myanimation= AnimationUtils.loadAnimation(SplashScreen.this,R.anim.animation2);
         uniXplore.startAnimation(myanimation);
 
-        Animation myanimation2= AnimationUtils.loadAnimation(SplashScreen.this,R.anim.animation1);
+        Animation myanimation2= AnimationUtils.loadAnimation(SplashScreen.this,R.anim.animation2);
         university.startAnimation(myanimation2);
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

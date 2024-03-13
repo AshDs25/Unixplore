@@ -23,10 +23,10 @@ com.example.unixplore.app-emoji2-views-helper-1.2.0-21 /Users/linciadsouza/.grad
 com.example.unixplore.app-activity-1.6.0-22 /Users/linciadsouza/.gradle/caches/transforms-3/e5ce8625f8d23310603ba5ce45d36052/transformed/activity-1.6.0/res
 com.example.unixplore.app-coordinatorlayout-1.1.0-23 /Users/linciadsouza/.gradle/caches/transforms-3/f76169c1d97d07924d7f04dc70a124f2/transformed/coordinatorlayout-1.1.0/res
 com.example.unixplore.app-lottie-6.4.0-24 /Users/linciadsouza/.gradle/caches/transforms-3/fcf85af115e8202815a09739bdaf84af/transformed/lottie-6.4.0/res
-com.example.unixplore.app-pngs-25 /Users/linciadsouza/Documents/GitHub/Unixplore/app/build/generated/res/pngs/debug
-com.example.unixplore.app-resValues-26 /Users/linciadsouza/Documents/GitHub/Unixplore/app/build/generated/res/resValues/debug
-com.example.unixplore.app-packageDebugResources-27 /Users/linciadsouza/Documents/GitHub/Unixplore/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.unixplore.app-packageDebugResources-28 /Users/linciadsouza/Documents/GitHub/Unixplore/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.unixplore.app-debug-29 /Users/linciadsouza/Documents/GitHub/Unixplore/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.unixplore.app-debug-30 /Users/linciadsouza/Documents/GitHub/Unixplore/app/src/debug/res
-com.example.unixplore.app-main-31 /Users/linciadsouza/Documents/GitHub/Unixplore/app/src/main/res
+com.example.unixplore.app-pngs-25 /Users/linciadsouza/Desktop/Unixplore/app/build/generated/res/pngs/debug
+com.example.unixplore.app-resValues-26 /Users/linciadsouza/Desktop/Unixplore/app/build/generated/res/resValues/debug
+com.example.unixplore.app-packageDebugResources-27 /Users/linciadsouza/Desktop/Unixplore/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.unixplore.app-packageDebugResources-28 /Users/linciadsouza/Desktop/Unixplore/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.unixplore.app-debug-29 /Users/linciadsouza/Desktop/Unixplore/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.unixplore.app-debug-30 /Users/linciadsouza/Desktop/Unixplore/app/src/debug/res
+com.example.unixplore.app-main-31 /Users/linciadsouza/Desktop/Unixplore/app/src/main/res

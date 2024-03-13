@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#201658"
+    android:background="#1B2738"
     android:orientation="vertical"
     android:layout_gravity="center"
     tools:context=".SplashScreen">
@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="60dp"
-        android:textColor="#F9E8C9"
+        android:textColor="#BCE6FA"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:gravity="center"
@@ -23,24 +23,24 @@
         android:layout_marginTop="90sp"
         android:text="UniXplore" />
 
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A University Assisting App"
+        android:textSize="20sp"
+        android:textColor="#DAE0E5"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="times" />
+
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/a" />
-
-    <TextView
-        android:id="@+id/textview2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="A University Assisting App"
-        android:textSize="40sp"
-        android:textColor="#F9E8C9"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginTop="5dp"
-        android:fontFamily="sans-serif-light" />
 
 
 </LinearLayout>

@@ -4,7 +4,7 @@
             "outputFile": "com.example.unixplore.app-mergeDebugResources-27:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/linciadsouza/Documents/GitHub/Unixplore/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/linciadsouza/Desktop/Unixplore/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

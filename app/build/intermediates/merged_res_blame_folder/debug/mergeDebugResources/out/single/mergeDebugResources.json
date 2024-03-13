@@ -92,6 +92,10 @@
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.unixplore.app-debug-29:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.unixplore.app-main-31:/layout/activity_splash_screen.xml"
+    },
+    {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
@@ -118,9 +122,5 @@
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/xml_data_extraction_rules.xml.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.unixplore.app-debug-29:/raw_a.json.flat",
-        "source": "com.example.unixplore.app-main-31:/raw/a.json"
     }
 ]
