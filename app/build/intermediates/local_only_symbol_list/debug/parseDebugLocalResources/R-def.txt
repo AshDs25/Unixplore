@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+anim animation1
+anim animation2
 color black
 color white
 drawable doc
@@ -15,7 +17,10 @@ id navHome
 id navProfile
 id navSOP
 id navSearch
+id textview1
+id textview2
 layout activity_main
+layout activity_splash_screen
 layout fragment_home_
 layout fragment_profile
 layout fragment_search
@@ -23,6 +28,7 @@ layout fragment_sop
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw a
 string app_name
 string hello_blank_fragment
 style Base.Theme.Unixplore

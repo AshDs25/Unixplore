@@ -1,7 +1,7 @@
-#Sun Mar 10 17:29:06 IST 2024
-base.0=D\:\\Unixplore\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\Unixplore\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\Unixplore\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+#Wed Mar 13 07:43:30 IST 2024
+base.0=/Users/linciadsouza/Documents/GitHub/Unixplore/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/linciadsouza/Documents/GitHub/Unixplore/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/linciadsouza/Documents/GitHub/Unixplore/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=15/classes.dex
