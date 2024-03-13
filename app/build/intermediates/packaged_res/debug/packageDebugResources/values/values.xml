@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="blue">#25569B</color>
+    <color name="bluishblack">#21272B</color>
+    <color name="darkblue">#1B2738</color>
+    <color name="grey">#DAE0E5</color>
+    <color name="skyblue">#BCE6FA</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Unixplore</string>
+    <string name="gcm_defaultSenderId" translatable="false">388727666050</string>
+    <string name="google_api_key" translatable="false">AIzaSyBceke4fLuTRcN1vz9At_p5knk1sQrua3E</string>
+    <string name="google_app_id" translatable="false">1:388727666050:android:3eb5e8b8c76805bbd28b9b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBceke4fLuTRcN1vz9At_p5knk1sQrua3E</string>
+    <string name="google_storage_bucket" translatable="false">unixplore-a10a1.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">unixplore-a10a1</string>
     <style name="Base.Theme.Unixplore" parent="Theme.Material3.DayNight.NoActionBar">
         
         

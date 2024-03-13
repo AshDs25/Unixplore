@@ -1,126 +1,142 @@
 [
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/layout_fragment_home_.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/layout/fragment_home_.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/layout_activity_main.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/layout/activity_main.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_fragment_search.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/fragment_search.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/drawable_doc.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/drawable/doc.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/anim_animation2.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/anim/animation2.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/layout_activity_splash_screen.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/layout/activity_splash_screen.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/drawable_search.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/drawable/search.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_search.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/search.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/drawable_person.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/drawable/person.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/anim_animation2.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/anim/animation2.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_logo.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/logo.png"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/raw_a.json.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/raw/a.json"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_border.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/border.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/anim_animation1.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/anim/animation1.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/layout_fragment_sop.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/layout/fragment_sop.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/menu_menu.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/menu/menu.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_home.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/home.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_activity_front_page.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_front_page.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/menu_menu.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/menu/menu.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_doc.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/doc.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/drawable_home.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/drawable/home.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/raw_a.json.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/raw/a.json"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/drawable/ic_launcher_foreground.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-29:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.unixplore.app-main-31:/layout/activity_splash_screen.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/anim_animation1.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/anim/animation1.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/layout_fragment_profile.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/layout/fragment_profile.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_person.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/person.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/layout_fragment_search.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/layout/fragment_search.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_fragment_home_.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/fragment_home_.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/xml_backup_rules.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/xml/backup_rules.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_fragment_sop.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/fragment_sop.xml"
     },
     {
-        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-29:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_activity_register_page.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_register_page.xml"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.unixplore.app-debug-34:/layout_activity_register_page.xml.flat",
+        "source": "com.example.unixplore.app-main-36:/layout/activity_register_page.xml"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_fragment_profile.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/fragment_profile.xml"
     }
 ]

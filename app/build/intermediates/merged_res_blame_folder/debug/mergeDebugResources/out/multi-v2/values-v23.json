@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.unixplore.app-mergeDebugResources-27:/values-v23/values-v23.xml",
+            "outputFile": "com.example.unixplore.app-mergeDebugResources-32:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/linciadsouza/.gradle/caches/transforms-3/709f9fb0076a87913066d2468486e87f/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/linciadsouza/.gradle/caches/transforms-3/e7f00ef9359765be5bd6c8ee229cb657/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/linciadsouza/.gradle/caches/transforms-3/c61ce5541cba4aee9b90977491848765/transformed/material-1.5.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/linciadsouza/.gradle/caches/transforms-3/6640a35e8db13a17f4e555b622b901f9/transformed/material-1.5.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "/Users/linciadsouza/.gradle/caches/transforms-3/adb624c537b155fa7528e8f3705ea928/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/linciadsouza/.gradle/caches/transforms-3/d38349a5400dbbb3da1c1e4be7a9f6d9/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

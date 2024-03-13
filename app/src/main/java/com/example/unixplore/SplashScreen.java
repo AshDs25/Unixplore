@@ -26,7 +26,7 @@ private static int Splash_timeout=5000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent splashintent=new Intent(SplashScreen.this,MainActivity.class);
+                Intent splashintent=new Intent(SplashScreen.this,FrontPage.class);
                 startActivity(splashintent);
                 finish();
             }
