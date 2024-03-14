@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388727666050",
+    "project_id": "unixplore-a10a1",
+    "storage_bucket": "unixplore-a10a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388727666050:android:3eb5e8b8c76805bbd28b9b",
+        "android_client_info": {
+          "package_name": "com.example.unixplore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBceke4fLuTRcN1vz9At_p5knk1sQrua3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
