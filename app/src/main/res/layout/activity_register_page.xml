@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView_register_dob"
             android:layout_below="@id/editText_register_email"
-            android:text="Date of Birth (dd/mm/yyyy)*"
+            android:text="Date of Birth (dd/mm/yyyy)"
             android:textColor="@color/bluishblack"
             android:padding="6dp"
             android:textSize="16sp"
