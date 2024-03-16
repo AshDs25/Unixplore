@@ -27,7 +27,8 @@ public class FrontPage extends AppCompatActivity {
         }
 
 
-        Button buttonLogin = findViewById(R.id.button_login);
+        Button buttonLogin;
+        buttonLogin = findViewById(R.id.button_login);
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

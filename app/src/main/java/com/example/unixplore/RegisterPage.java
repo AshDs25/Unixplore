@@ -226,7 +226,7 @@ public class RegisterPage extends AppCompatActivity {
                                 Toast.makeText(RegisterPage.this, "User registered successfully. Kindly verify your Email Address", Toast.LENGTH_LONG).show();
 
 
-                                Intent intent = new Intent(RegisterPage.this, ProfileFragment.class);
+                                Intent intent = new Intent(RegisterPage.this, ProfilePage.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                 startActivity(intent);
                                 finish();

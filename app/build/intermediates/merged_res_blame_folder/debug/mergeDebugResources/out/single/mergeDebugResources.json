@@ -16,6 +16,10 @@
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_mobile.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_mobile.png"
+    },
+    {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_launcher_background.xml"
     },
@@ -40,8 +44,16 @@
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/logo.png"
     },
     {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_gender.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_gender.png"
+    },
+    {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.unixplore.app-debug-34:/layout_activity_login_page.xml.flat",
+        "source": "com.example.unixplore.app-main-36:/layout/activity_login_page.xml"
     },
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_border.xml.flat",
@@ -58,6 +70,10 @@
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/menu_menu.xml.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_activity_login_page.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_login_page.xml"
     },
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_home.xml.flat",
@@ -78,6 +94,14 @@
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_activity_splash_screen.xml.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_hide_pwd.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_hide_pwd.png"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_email.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_email.png"
     },
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/raw_a.json.flat",
@@ -108,8 +132,24 @@
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/person.xml"
     },
     {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_activity_profile_page.xml.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_profile_page.xml"
+    },
+    {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_fragment_home_.xml.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/fragment_home_.xml"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_show_pwd.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_show_pwd.png"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_profile.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_profile.png"
+    },
+    {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_ic_birthday.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/ic_birthday.png"
     },
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -124,16 +164,16 @@
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/layout/activity_register_page.xml"
     },
     {
+        "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/drawable_no_profile_pic.png.flat",
+        "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/drawable/no_profile_pic.png"
+    },
+    {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/xml_backup_rules.xml.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/xml/backup_rules.xml"
     },
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-main-36:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.unixplore.app-debug-34:/layout_activity_register_page.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/activity_register_page.xml"
     },
     {
         "merged": "/Users/linciadsouza/.gradle/daemon/8.4/com.example.unixplore.app-debug-34:/layout_fragment_profile.xml.flat",

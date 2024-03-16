@@ -32,10 +32,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Unixplore" >
         <activity
-            android:name="com.example.unixplore.RegisterPage"
+            android:name="com.example.unixplore.ProfilePage"
             android:exported="false" />
         <activity
-            android:name="com.example.unixplore.FrontPage"
+            android:name="com.example.unixplore.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.unixplore.RegisterPage"
             android:exported="false" />
         <activity
             android:name="com.example.unixplore.SplashScreen"
@@ -46,6 +49,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.unixplore.FrontPage"
+            android:exported="false" />
         <activity
             android:name="com.example.unixplore.MainActivity"
             android:exported="false" />
