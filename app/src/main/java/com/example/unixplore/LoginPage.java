@@ -36,6 +36,8 @@ import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Objects;
+
 public class LoginPage extends AppCompatActivity {
 
     private EditText editTextLoginEmail, editTextLoginPwd;
@@ -81,13 +83,19 @@ public class LoginPage extends AppCompatActivity {
         });
 
         Button buttonLogin = findViewById(R.id.button_login);
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        buttonLogin.setOnClickListener(view -> {
+
+            if (authProfile.getCurrentUser() != null){
+                Toast.makeText(LoginPage.this, "Already Logged In", Toast.LENGTH_SHORT).show();
+
+                startActivity(new Intent(LoginPage.this, ProfileFragment.class));
+                finish();
+
+            }
+            else {
                 String textEmail = editTextLoginEmail.getText().toString();
                 String textPwd = editTextLoginPwd.getText().toString();
-
-                if (TextUtils.isEmpty(textEmail)){
+                if (TextUtils.isEmpty(textEmail)) {
                     Toast.makeText(LoginPage.this, "Please enter your Email Address", Toast.LENGTH_SHORT).show();
                     editTextLoginEmail.setError("Email Address is required");
                     editTextLoginEmail.requestFocus();
@@ -127,6 +135,7 @@ public class LoginPage extends AppCompatActivity {
                 if (task.isSuccessful()){
                     FirebaseUser firebaseUser = authProfile.getCurrentUser();
 
+                    assert firebaseUser != null;
                     if (firebaseUser.isEmailVerified()){
                         Toast.makeText(LoginPage.this, "You are logged in now", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(LoginPage.this, ProfileFragment.class));
@@ -140,7 +149,7 @@ public class LoginPage extends AppCompatActivity {
 
                 } else {
                     try {
-                        throw task.getException();
+                        throw Objects.requireNonNull(task.getException());
                     } catch(FirebaseAuthInvalidUserException e){
                         editTextLoginEmail.setError("User does not exists or is no longer valid. Please register.");
                         editTextLoginEmail.requestFocus();
@@ -148,7 +157,7 @@ public class LoginPage extends AppCompatActivity {
                         editTextLoginEmail.setError("Invalid credentials. Kindly check and re-enter again.");
                         editTextLoginEmail.requestFocus();
                     } catch (Exception e){
-                        Log.e(TAG, e.getMessage());
+                        Log.e(TAG, Objects.requireNonNull(e.getMessage()));
                         Toast.makeText(LoginPage.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -164,14 +173,11 @@ public class LoginPage extends AppCompatActivity {
         builder.setTitle("Email Not Verified");
         builder.setMessage("Please verify your email now. You cannot login without email verification");
 
-        builder.setPositiveButton("Continue", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.addCategory(Intent.CATEGORY_APP_EMAIL);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-            }
+        builder.setPositiveButton("Continue", (dialogInterface, i) -> {
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_APP_EMAIL);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
         });
 
         AlertDialog alertDialog = builder.create();
@@ -182,14 +188,18 @@ public class LoginPage extends AppCompatActivity {
 
     protected void onStart() {
         super.onStart();
-        if (authProfile.getCurrentUser() != null){
+        FirebaseUser currentUser = authProfile.getCurrentUser();
+        if (currentUser != null && currentUser.isEmailVerified()) {
+            // If user is already logged in and email is verified, navigate to the profile page
             Toast.makeText(LoginPage.this, "Already Logged In", Toast.LENGTH_SHORT).show();
-
             startActivity(new Intent(LoginPage.this, ProfileFragment.class));
             finish();
-
+        } else if (currentUser != null && !currentUser.isEmailVerified()) {
+            // If user is logged in but email is not verified, show alert dialog
+            showAlertDialog();
         } else {
-            Toast.makeText(LoginPage.this, "You can login now", Toast.LENGTH_SHORT).show();
+            // If user is not logged in, show a toast indicating they can log in now
+            Toast.makeText(LoginPage.this, "You can log in now", Toast.LENGTH_SHORT).show();
         }
     }
 }
