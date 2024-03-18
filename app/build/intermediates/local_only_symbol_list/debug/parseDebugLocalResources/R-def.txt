@@ -48,6 +48,7 @@ id ic_profile
 id imageView_logo
 id imageView_profile_dp
 id imageView_show_hide_pwd
+id log_in
 id main
 id mainFrag
 id navHome
@@ -55,9 +56,11 @@ id navProfile
 id navSOP
 id navSearch
 id progessBar
+id progressBar
 id radio_female
 id radio_group_register_gender
 id radio_male
+id reg
 id textView_app_name
 id textView_login_email
 id textView_login_head

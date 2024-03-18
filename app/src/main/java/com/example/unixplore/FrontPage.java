@@ -29,22 +29,16 @@ public class FrontPage extends AppCompatActivity {
 
         Button buttonLogin;
         buttonLogin = findViewById(R.id.button_login);
-        buttonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(FrontPage.this, LoginPage.class);
-                startActivity(intent);
-            }
+        buttonLogin.setOnClickListener(view -> {
+            Intent intent = new Intent(FrontPage.this, LoginPage.class);
+            startActivity(intent);
         });
 
 
         Button buttonRegister = findViewById(R.id.button_register);
-        buttonRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(FrontPage.this, RegisterPage.class);
-                startActivity(intent);
-            }
+        buttonRegister.setOnClickListener(view -> {
+            Intent intent = new Intent(FrontPage.this, RegisterPage.class);
+            startActivity(intent);
         });
 
 

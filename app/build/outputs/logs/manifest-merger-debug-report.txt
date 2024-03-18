@@ -131,12 +131,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ash25\.gradle\cach
 		ADDED from D:\Unixplore\app\src\main\AndroidManifest.xml:13:9-47
 	android:dataExtractionRules
 		ADDED from D:\Unixplore\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.unixplore.ProfilePage
+activity#com.example.unixplore.ProfileFragment
 ADDED from D:\Unixplore\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from D:\Unixplore\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from D:\Unixplore\app\src\main\AndroidManifest.xml:16:13-40
+		ADDED from D:\Unixplore\app\src\main\AndroidManifest.xml:16:13-44
 activity#com.example.unixplore.LoginPage
 ADDED from D:\Unixplore\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported

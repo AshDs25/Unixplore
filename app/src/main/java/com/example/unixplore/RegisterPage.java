@@ -1,5 +1,6 @@
 package com.example.unixplore;
 
+import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -88,6 +89,7 @@ public class RegisterPage extends AppCompatActivity {
                 int year = calendar.get(Calendar.YEAR);
 
                 picker = new DatePickerDialog(RegisterPage.this, new DatePickerDialog.OnDateSetListener() {
+                    @SuppressLint("SetTextI18n")
                     @Override
                     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
                         editTextRegisterDoB.setText(dayOfMonth + "/" + (month + 1) + "/" + year);
@@ -98,83 +100,80 @@ public class RegisterPage extends AppCompatActivity {
         });
 
         Button buttonRegister = findViewById(R.id.button_register);
-        buttonRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                int selectedGenderId = radioGroupRegisterGender.getCheckedRadioButtonId();
-                radioButtonRegisterGenderSelected = findViewById(selectedGenderId);
+        buttonRegister.setOnClickListener(view -> {
+            int selectedGenderId = radioGroupRegisterGender.getCheckedRadioButtonId();
+            radioButtonRegisterGenderSelected = findViewById(selectedGenderId);
 
-                String textFullName = editTextRegisterFullName.getText().toString();
-                String textEmail = editTextRegisterEmail.getText().toString();
-                String textDoB = editTextRegisterDoB.getText().toString();
-                String textMobile = editTextRegisterMobile.getText().toString();
-                String textPwd = editTextRegisterPwd.getText().toString();
-                String textConfirmPwd = editTextRegisterConfirmPwd.getText().toString();
-                String textGender;
+            String textFullName = editTextRegisterFullName.getText().toString();
+            String textEmail = editTextRegisterEmail.getText().toString();
+            String textDoB = editTextRegisterDoB.getText().toString();
+            String textMobile = editTextRegisterMobile.getText().toString();
+            String textPwd = editTextRegisterPwd.getText().toString();
+            String textConfirmPwd = editTextRegisterConfirmPwd.getText().toString();
+            String textGender;
 
 
-                String mobileRegex = "[6-9][0-9]{9}";
-                Matcher mobileMatcher;
-                Pattern mobilePattern = Pattern.compile(mobileRegex);
-                mobileMatcher = mobilePattern.matcher(textMobile);
+            String mobileRegex = "[6-9][0-9]{9}";
+            Matcher mobileMatcher;
+            Pattern mobilePattern = Pattern.compile(mobileRegex);
+            mobileMatcher = mobilePattern.matcher(textMobile);
 
-                if (TextUtils.isEmpty(textFullName)) {
-                    Toast.makeText(RegisterPage.this, "Enter your full name", Toast.LENGTH_LONG).show();
-                    editTextRegisterFullName.setError("Full name is required");
-                    editTextRegisterFullName.requestFocus();
-                } else if (TextUtils.isEmpty(textEmail)) {
-                    Toast.makeText(RegisterPage.this, "Enter your email", Toast.LENGTH_LONG).show();
-                    editTextRegisterEmail.setError("Email is required");
-                    editTextRegisterEmail.requestFocus();
-                } else if (!Patterns.EMAIL_ADDRESS.matcher(textEmail).matches()) {
-                    Toast.makeText(RegisterPage.this, "Re-enter your email", Toast.LENGTH_LONG).show();
-                    editTextRegisterEmail.setError("Valid email is required");
-                    editTextRegisterEmail.requestFocus();
-                } else if (TextUtils.isEmpty(textDoB)) {
-                    Toast.makeText(RegisterPage.this, "Enter your date of birth", Toast.LENGTH_LONG).show();
-                    editTextRegisterDoB.setError("Date of Birth is required");
-                    editTextRegisterDoB.requestFocus();
-                } else if (radioGroupRegisterGender.getCheckedRadioButtonId() == -1) {
-                    Toast.makeText(RegisterPage.this, "Select your gender", Toast.LENGTH_LONG).show();
-                    radioButtonRegisterGenderSelected.setError("Gender is required");
-                    radioButtonRegisterGenderSelected.requestFocus();
-                } else if (TextUtils.isEmpty(textMobile)) {
-                    Toast.makeText(RegisterPage.this, "Enter your mobile number", Toast.LENGTH_LONG).show();
-                    editTextRegisterMobile.setError("Mobile number is required");
-                    editTextRegisterMobile.requestFocus();
-                } else if (textMobile.length() != 10) {
-                    Toast.makeText(RegisterPage.this, "Re-enter your mobile number", Toast.LENGTH_LONG).show();
-                    editTextRegisterMobile.setError("Mobile number should be of 10 digits");
-                    editTextRegisterMobile.requestFocus();
-                } else if (!mobileMatcher.find()) {
-                    Toast.makeText(RegisterPage.this, "Re-enter your mobile number", Toast.LENGTH_LONG).show();
-                    editTextRegisterMobile.setError("Mobile number entered is not valid");
-                    editTextRegisterMobile.requestFocus();
-                } else if (TextUtils.isEmpty(textPwd)) {
-                    Toast.makeText(RegisterPage.this, "Enter your password", Toast.LENGTH_LONG).show();
-                    editTextRegisterPwd.setError("Password is required");
-                    editTextRegisterPwd.requestFocus();
-                } else if (textPwd.length() < 6) {
-                    Toast.makeText(RegisterPage.this, "Password should be at least 6 digits long", Toast.LENGTH_LONG).show();
-                    editTextRegisterPwd.setError("Password is too weak");
-                    editTextRegisterPwd.requestFocus();
-                } else if (TextUtils.isEmpty(textConfirmPwd)) {
-                    Toast.makeText(RegisterPage.this, "Confirm your password", Toast.LENGTH_LONG).show();
-                    editTextRegisterConfirmPwd.setError("Password confirmation is required");
-                    editTextRegisterConfirmPwd.requestFocus();
-                } else if (!textPwd.equals(textConfirmPwd)) {
-                    Toast.makeText(RegisterPage.this, "Please enter correct password", Toast.LENGTH_LONG).show();
-                    editTextRegisterConfirmPwd.setError("Password confirmation is required");
-                    editTextRegisterConfirmPwd.requestFocus();
-                    editTextRegisterPwd.clearComposingText();
-                    editTextRegisterConfirmPwd.clearComposingText();
-                } else {
-                    textGender = radioButtonRegisterGenderSelected.getText().toString();
-                    progressBar.setVisibility(View.VISIBLE);
-                    registerUser(textFullName, textEmail, textDoB, textGender, textMobile, textPwd);
-                }
-
+            if (TextUtils.isEmpty(textFullName)) {
+                Toast.makeText(RegisterPage.this, "Enter your full name", Toast.LENGTH_LONG).show();
+                editTextRegisterFullName.setError("Full name is required");
+                editTextRegisterFullName.requestFocus();
+            } else if (TextUtils.isEmpty(textEmail)) {
+                Toast.makeText(RegisterPage.this, "Enter your email", Toast.LENGTH_LONG).show();
+                editTextRegisterEmail.setError("Email is required");
+                editTextRegisterEmail.requestFocus();
+            } else if (!Patterns.EMAIL_ADDRESS.matcher(textEmail).matches()) {
+                Toast.makeText(RegisterPage.this, "Re-enter your email", Toast.LENGTH_LONG).show();
+                editTextRegisterEmail.setError("Valid email is required");
+                editTextRegisterEmail.requestFocus();
+            } else if (TextUtils.isEmpty(textDoB)) {
+                Toast.makeText(RegisterPage.this, "Enter your date of birth", Toast.LENGTH_LONG).show();
+                editTextRegisterDoB.setError("Date of Birth is required");
+                editTextRegisterDoB.requestFocus();
+            } else if (radioGroupRegisterGender.getCheckedRadioButtonId() == -1) {
+                Toast.makeText(RegisterPage.this, "Select your gender", Toast.LENGTH_LONG).show();
+                radioButtonRegisterGenderSelected.setError("Gender is required");
+                radioButtonRegisterGenderSelected.requestFocus();
+            } else if (TextUtils.isEmpty(textMobile)) {
+                Toast.makeText(RegisterPage.this, "Enter your mobile number", Toast.LENGTH_LONG).show();
+                editTextRegisterMobile.setError("Mobile number is required");
+                editTextRegisterMobile.requestFocus();
+            } else if (textMobile.length() != 10) {
+                Toast.makeText(RegisterPage.this, "Re-enter your mobile number", Toast.LENGTH_LONG).show();
+                editTextRegisterMobile.setError("Mobile number should be of 10 digits");
+                editTextRegisterMobile.requestFocus();
+            } else if (!mobileMatcher.find()) {
+                Toast.makeText(RegisterPage.this, "Re-enter your mobile number", Toast.LENGTH_LONG).show();
+                editTextRegisterMobile.setError("Mobile number entered is not valid");
+                editTextRegisterMobile.requestFocus();
+            } else if (TextUtils.isEmpty(textPwd)) {
+                Toast.makeText(RegisterPage.this, "Enter your password", Toast.LENGTH_LONG).show();
+                editTextRegisterPwd.setError("Password is required");
+                editTextRegisterPwd.requestFocus();
+            } else if (textPwd.length() < 6) {
+                Toast.makeText(RegisterPage.this, "Password should be at least 6 digits long", Toast.LENGTH_LONG).show();
+                editTextRegisterPwd.setError("Password is too weak");
+                editTextRegisterPwd.requestFocus();
+            } else if (TextUtils.isEmpty(textConfirmPwd)) {
+                Toast.makeText(RegisterPage.this, "Confirm your password", Toast.LENGTH_LONG).show();
+                editTextRegisterConfirmPwd.setError("Password confirmation is required");
+                editTextRegisterConfirmPwd.requestFocus();
+            } else if (!textPwd.equals(textConfirmPwd)) {
+                Toast.makeText(RegisterPage.this, "Please enter correct password", Toast.LENGTH_LONG).show();
+                editTextRegisterConfirmPwd.setError("Password confirmation is required");
+                editTextRegisterConfirmPwd.requestFocus();
+                editTextRegisterPwd.clearComposingText();
+                editTextRegisterConfirmPwd.clearComposingText();
+            } else {
+                textGender = radioButtonRegisterGenderSelected.getText().toString();
+                progressBar.setVisibility(View.VISIBLE);
+                registerUser(textFullName, textEmail, textDoB, textGender, textMobile, textPwd);
             }
+
         });
 
 

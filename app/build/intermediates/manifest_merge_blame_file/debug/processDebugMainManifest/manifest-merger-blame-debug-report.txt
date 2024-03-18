@@ -54,8 +54,8 @@
 33-->D:\Unixplore\app\src\main\AndroidManifest.xml:13:9-47
 34        <activity
 34-->D:\Unixplore\app\src\main\AndroidManifest.xml:15:9-17:40
-35            android:name="com.example.unixplore.ProfilePage"
-35-->D:\Unixplore\app\src\main\AndroidManifest.xml:16:13-40
+35            android:name="com.example.unixplore.ProfileFragment"
+35-->D:\Unixplore\app\src\main\AndroidManifest.xml:16:13-44
 36            android:exported="false" />
 36-->D:\Unixplore\app\src\main\AndroidManifest.xml:17:13-37
 37        <activity

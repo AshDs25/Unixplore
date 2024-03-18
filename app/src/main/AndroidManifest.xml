@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Unixplore"
         tools:targetApi="31">
         <activity
-            android:name=".ProfilePage"
+            android:name=".ProfileFragment"
             android:exported="false" />
         <activity
             android:name=".LoginPage"

@@ -1,6 +1,6 @@
 package com.example.unixplore;
 
-//import static com.example.unixplore.R.id.progessBar;
+//import static com.example.unixplore.R.id.progressBar;
 //import static com.example.unixplore.R.id.imageView_show_hide_pwd;
 
 import android.content.DialogInterface;
@@ -26,6 +26,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -63,22 +65,19 @@ public class LoginPage extends AppCompatActivity {
 
         editTextLoginEmail = findViewById(R.id.editText_login_email);
         editTextLoginPwd = findViewById(R.id.editText_login_pwd);
-        progressBar = findViewById(R.id.progessBar);
+        progressBar = findViewById(R.id.progressBar);
 
         authProfile = FirebaseAuth.getInstance();
 
         ImageView imageViewShowHidePwd = findViewById(R.id.imageView_show_hide_pwd);
         imageViewShowHidePwd.setImageResource(R.drawable.ic_hide_pwd);
-        imageViewShowHidePwd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (editTextLoginPwd.getTransformationMethod().equals(HideReturnsTransformationMethod.getInstance())){
-                    editTextLoginPwd.setTransformationMethod(PasswordTransformationMethod.getInstance());
-                    imageViewShowHidePwd.setImageResource(R.drawable.ic_hide_pwd);
-                } else {
-                    editTextLoginPwd.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
-                    imageViewShowHidePwd.setImageResource(R.drawable.ic_show_pwd);
-                }
+        imageViewShowHidePwd.setOnClickListener(view -> {
+            if (editTextLoginPwd.getTransformationMethod().equals(HideReturnsTransformationMethod.getInstance())){
+                editTextLoginPwd.setTransformationMethod(PasswordTransformationMethod.getInstance());
+                imageViewShowHidePwd.setImageResource(R.drawable.ic_hide_pwd);
+            } else {
+                editTextLoginPwd.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+                imageViewShowHidePwd.setImageResource(R.drawable.ic_show_pwd);
             }
         });
 
@@ -88,7 +87,11 @@ public class LoginPage extends AppCompatActivity {
             if (authProfile.getCurrentUser() != null){
                 Toast.makeText(LoginPage.this, "Already Logged In", Toast.LENGTH_SHORT).show();
 
-                startActivity(new Intent(LoginPage.this, ProfileFragment.class));
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.replace(R.id.log_in, new ProfileFragment());
+                transaction.addToBackStack(null);  // Optional: Adds the transaction to the back stack
+                transaction.commit();
                 finish();
 
             }
@@ -129,40 +132,41 @@ public class LoginPage extends AppCompatActivity {
 
     private void loginUser(String email, String pwd) {
 
-        authProfile.signInWithEmailAndPassword(email, pwd).addOnCompleteListener(LoginPage.this, new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()){
-                    FirebaseUser firebaseUser = authProfile.getCurrentUser();
+        authProfile.signInWithEmailAndPassword(email, pwd).addOnCompleteListener(LoginPage.this, task -> {
+            if (task.isSuccessful()){
+                FirebaseUser firebaseUser = authProfile.getCurrentUser();
 
-                    assert firebaseUser != null;
-                    if (firebaseUser.isEmailVerified()){
-                        Toast.makeText(LoginPage.this, "You are logged in now", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(LoginPage.this, ProfileFragment.class));
-                        finish();
-                    } else {
-                        firebaseUser.sendEmailVerification();
-                        authProfile.signOut();
-                        showAlertDialog();
-                    }
-
-
+                assert firebaseUser != null;
+                if (firebaseUser.isEmailVerified()){
+                    Toast.makeText(LoginPage.this, "You are logged in now", Toast.LENGTH_SHORT).show();
+                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    FragmentTransaction transaction = fragmentManager.beginTransaction();
+                    transaction.replace(R.id.log_in, new ProfileFragment());
+                  //  transaction.addToBackStack(null);  // Optional: Adds the transaction to the back stack
+                    transaction.commit();
+                    finish();
                 } else {
-                    try {
-                        throw Objects.requireNonNull(task.getException());
-                    } catch(FirebaseAuthInvalidUserException e){
-                        editTextLoginEmail.setError("User does not exists or is no longer valid. Please register.");
-                        editTextLoginEmail.requestFocus();
-                    } catch (FirebaseAuthInvalidCredentialsException e){
-                        editTextLoginEmail.setError("Invalid credentials. Kindly check and re-enter again.");
-                        editTextLoginEmail.requestFocus();
-                    } catch (Exception e){
-                        Log.e(TAG, Objects.requireNonNull(e.getMessage()));
-                        Toast.makeText(LoginPage.this, e.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
+                    firebaseUser.sendEmailVerification();
+                    authProfile.signOut();
+                    showAlertDialog();
                 }
-                progressBar.setVisibility(View.GONE);
+
+
+            } else {
+                try {
+                    throw Objects.requireNonNull(task.getException());
+                } catch(FirebaseAuthInvalidUserException e){
+                    editTextLoginEmail.setError("User does not exists or is no longer valid. Please register.");
+                    editTextLoginEmail.requestFocus();
+                } catch (FirebaseAuthInvalidCredentialsException e){
+                    editTextLoginEmail.setError("Invalid credentials. Kindly check and re-enter again.");
+                    editTextLoginEmail.requestFocus();
+                } catch (Exception e){
+                    Log.e(TAG, Objects.requireNonNull(e.getMessage()));
+                    Toast.makeText(LoginPage.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                }
             }
+            progressBar.setVisibility(View.GONE);
         });
 
     }
@@ -191,8 +195,11 @@ public class LoginPage extends AppCompatActivity {
         FirebaseUser currentUser = authProfile.getCurrentUser();
         if (currentUser != null && currentUser.isEmailVerified()) {
             // If user is already logged in and email is verified, navigate to the profile page
-            Toast.makeText(LoginPage.this, "Already Logged In", Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(LoginPage.this, ProfileFragment.class));
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction transaction = fragmentManager.beginTransaction();
+            transaction.replace(R.id.log_in, new ProfileFragment());
+            transaction.addToBackStack(null);  // Optional: Adds the transaction to the back stack
+            transaction.commit();
             finish();
         } else if (currentUser != null && !currentUser.isEmailVerified()) {
             // If user is logged in but email is not verified, show alert dialog

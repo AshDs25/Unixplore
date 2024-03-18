@@ -32,7 +32,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Unixplore" >
         <activity
-            android:name="com.example.unixplore.ProfilePage"
+            android:name="com.example.unixplore.ProfileFragment"
             android:exported="false" />
         <activity
             android:name="com.example.unixplore.LoginPage"

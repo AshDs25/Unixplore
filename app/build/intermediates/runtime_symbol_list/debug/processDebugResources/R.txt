@@ -2854,6 +2854,7 @@ int id line3 0x7f080108
 int id linear 0x7f080109
 int id listMode 0x7f08010a
 int id list_item 0x7f08010b
+int id log_in 0x7f080220
 int id lottie_layer_name 0x7f08010c
 int id main 0x7f08010d
 int id mainFrag 0x7f08010e
@@ -2955,6 +2956,7 @@ int id pin 0x7f08016d
 int id position 0x7f08016e
 int id postLayout 0x7f08016f
 int id progessBar 0x7f080170
+int id progressBar 0x7f080222
 int id progress_circular 0x7f080171
 int id progress_horizontal 0x7f080172
 int id radio 0x7f080173
@@ -2963,6 +2965,7 @@ int id radio_group_register_gender 0x7f080175
 int id radio_male 0x7f080176
 int id ratio 0x7f080177
 int id rectangles 0x7f080178
+int id reg 0x7f080221
 int id restart 0x7f080179
 int id reverse 0x7f08017a
 int id reverseSawtooth 0x7f08017b

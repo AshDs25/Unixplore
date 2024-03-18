@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/log_in"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginPage"
@@ -58,22 +58,25 @@
             android:textSize="16sp"/>
 
         <ImageView
+            android:id="@+id/imageView_show_hide_pwd"
             android:layout_width="30dp"
             android:layout_height="32dp"
-            android:id="@+id/imageView_show_hide_pwd"
-            android:layout_below="@id/editText_login_pwd"/>
+            android:layout_below="@id/editText_login_pwd"
+            android:layout_marginTop="1dp" />
 
         <EditText
+            android:id="@+id/editText_login_pwd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText_login_pwd"
             android:layout_below="@id/textView_login_pwd"
-            android:layout_marginStart="30dp"
+            android:layout_alignStart="@+id/textView_login_pwd"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-3dp"
+            android:background="@drawable/border"
             android:hint="Enter your registered email address"
             android:inputType="textPassword"
             android:padding="6dp"
-            android:textSize="16sp"
-            android:background="@drawable/border"/>
+            android:textSize="16sp" />
 
         <Button
             android:layout_width="match_parent"
@@ -88,7 +91,7 @@
         <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/progessBar"
+            android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleLarge"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"

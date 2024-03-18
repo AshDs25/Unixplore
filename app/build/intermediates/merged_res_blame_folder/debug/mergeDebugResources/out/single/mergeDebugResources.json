@@ -1,175 +1,183 @@
 [
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_no_profile_pic.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\no_profile_pic.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_fragment_sop.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\fragment_sop.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_no_profile_pic.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/no_profile_pic.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_activity_splash_screen.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_hide_pwd.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_hide_pwd.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_activity_register_page.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\activity_register_page.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_email.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_email.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_profile.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_profile.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\anim_animation2.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\anim\\animation2.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_show_pwd.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_show_pwd.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_fragment_home_.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/fragment_home_.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_show_pwd.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_show_pwd.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_activity_front_page.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/activity_front_page.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_activity_login_page.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/activity_login_page.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\menu\\menu.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/anim_animation2.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/anim/animation2.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_search.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\search.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_gender.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_gender.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_birthday.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_birthday.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_mobile.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_mobile.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_home.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/home.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "com.example.unixplore.app-debug-34:/layout_fragment_profile.xml.flat",
         "source": "com.example.unixplore.app-main-36:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_activity_login_page.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\activity_login_page.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_mobile.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_mobile.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_activity_front_page.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\activity_front_page.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_fragment_sop.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/fragment_sop.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\logo.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_fragment_search.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/fragment_search.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_fragment_home_.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\fragment_home_.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_gender.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_gender.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/xml_backup_rules.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_hide_pwd.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_hide_pwd.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/raw_a.json.flat",
-        "source": "com.example.unixplore.app-main-36:/raw/a.json"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\raw_a.json.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\raw\\a.json"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_person.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/person.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\anim_animation1.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\anim\\animation1.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_doc.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/doc.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_profile.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_profile.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_activity_main.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_activity_profile_page.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\activity_profile_page.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/menu_menu.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/menu/menu.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_doc.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\doc.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_search.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/search.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_person.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\person.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/anim_animation1.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/anim/animation1.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_birthday.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_birthday.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_logo.png.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/logo.png"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_border.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/border.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_border.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\border.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_ic_email.png.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\ic_email.png"
     },
     {
-        "merged": "com.example.unixplore.app-debug-34:/layout_activity_register_page.xml.flat",
-        "source": "com.example.unixplore.app-main-36:/layout/activity_register_page.xml"
-    },
-    {
-        "merged": "com.example.unixplore.app-debug-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.unixplore.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-debug-34:\\drawable_home.xml.flat",
+        "source": "C:\\Users\\ash25\\.gradle\\daemon\\8.4\\com.example.unixplore.app-main-36:\\drawable\\home.xml"
     },
     {
         "merged": "com.example.unixplore.app-debug-34:/layout_activity_profile_page.xml.flat",
